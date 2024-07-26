@@ -33,31 +33,31 @@ spring:
               - OPTIONS
       routes:
         - id: auth-ms
-          uri: https://govermentauthapi20240708181106.azurewebsites.net/
+          uri: https://govermentauthapi20240726123329.azurewebsites.net/
           predicates:
             - Path=/api/Auths/**
 
 
         - id: auth-ms
-          uri: https://govermentauthapi20240708181106.azurewebsites.net/
+          uri: https://govermentauthapi20240726123329.azurewebsites.net/
           predicates:
             - Path=/api/Roles/**
 
 
         - id: auth-ms
-          uri: https://govermentauthapi20240708181106.azurewebsites.net/
+          uri: https://govermentauthapi20240726123329.azurewebsites.net/
           predicates:
             - Path=/api/Users/**
 
 
         - id: admin-ms
-          uri: https://adminapi20240708182629.azurewebsites.net/
+          uri: https://admin-ms.azurewebsites.net/
           predicates:
             - Path=/api/Organizations/**
 
 
         - id: admin-ms
-          uri: https://adminapi20240708182629.azurewebsites.net/
+          uri: https://admin-ms.azurewebsites.net/
           predicates:
             - Path=/api/Staffs/**
 
